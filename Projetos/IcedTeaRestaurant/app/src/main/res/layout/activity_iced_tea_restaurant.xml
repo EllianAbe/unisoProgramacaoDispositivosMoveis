@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".IcedTeaRestaurant">
+
+    <!-- esse é o primeiro textview, como se fosse o titulo da aplicação com o nome do restaurante,
+     o texto não é fixo  -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="@string/title" />
+
+    <!-- esse é o segundo textview, como se fosse o titulo da aplicação com o nome do restaurante,
+     não há nenhum texto inicialmente -->
+    <TextView
+        android:id="@+id/textArea01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="" />
+
+    <!-- botão de registrar o pedido, por enquanto ele vai alterar o valor do textview vazio através
+     da função onClickOrder, chamada no evento onclick.-->
+    <Button
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="Confirm order"
+        android:onClick="onClickOrder"/>
+
+    <!-- botão de consulta de total de horas trabalhadas, por enquanto ele vai alterar o valor do
+     textview vazio através da função onClickGetTotalHours, chamada no evento onclick.-->
+    <Button
+        android:id="@+id/getTotalHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="Confirm order"
+        android:onClick="onClickGetTotalHours"/>
+
+</LinearLayout>
