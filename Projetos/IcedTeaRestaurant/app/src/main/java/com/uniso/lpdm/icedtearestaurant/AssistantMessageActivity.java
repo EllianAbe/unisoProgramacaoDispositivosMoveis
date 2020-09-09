@@ -21,7 +21,7 @@ public class AssistantMessageActivity extends AppCompatActivity {
         EditText editText = (EditText) findViewById(R.id.assistantMessage);
         String assistantMessageText = editText.getText().toString();
 
-        // cria a intent e envia de forma implícita.
+        // cria a intent (implícita).
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("text/plain");
         intent.putExtra(Intent.EXTRA_TEXT, assistantMessageText);
