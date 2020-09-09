@@ -4,6 +4,7 @@ package com.uniso.lpdm.icedtearestaurant;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -28,5 +29,12 @@ public class IcedTeaRestaurant extends AppCompatActivity {
         TextView textArea01 = (TextView) findViewById(R.id.textArea01);
 
         textArea01.setText("Total de horas");
+    }
+
+    // função apenas chama a nova atividade do Assistant Messenger usando um intent explícito.
+    public void onClickAssistantMessenger(View view) {
+        Intent intent = new Intent(this, AssistantMessageActivity.class);
+
+        startActivity(intent);
     }
 }

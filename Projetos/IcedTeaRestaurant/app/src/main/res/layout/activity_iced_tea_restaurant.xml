@@ -51,4 +51,13 @@
         android:text="Get Total Hours"
         android:onClick="onClickGetTotalHours"/>
 
+    <Button
+        android:id="@+id/assistantMessenger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="@string/assistantMessageButton"
+        android:onClick="onClickAssistantMessenger"/>
+
 </LinearLayout>

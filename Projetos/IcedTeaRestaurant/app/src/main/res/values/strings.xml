@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">IcedTeaRestaurant</string>
     <string name="title">Iced Tea Restaurant</string>
+    <string name="assistantMessageHint">Digite sua mensagem aqui.</string>
+    <string name="sendMessageButton">Enviar</string>
+    <string name="assistantMessageButton">Assistant Messenger</string>
 </resources>
