@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import java.util.Timer;
+
 public class IcedTeaRestaurant extends AppCompatActivity {
 
     @Override
@@ -29,6 +31,9 @@ public class IcedTeaRestaurant extends AppCompatActivity {
         TextView textArea01 = (TextView) findViewById(R.id.textArea01);
 
         textArea01.setText("Total de horas");
+
+        Intent intent = new Intent(this, TimerActivity.class);
+        startActivity(intent);
     }
 
     // função apenas chama a nova atividade do Assistant Messenger usando um intent explícito.

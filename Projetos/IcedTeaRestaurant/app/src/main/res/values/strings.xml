@@ -4,4 +4,8 @@
     <string name="assistantMessageHint">Digite sua mensagem aqui.</string>
     <string name="sendMessageButton">Enviar</string>
     <string name="assistantMessageButton">Assistant Messenger</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="pausar">Pausar</string>
+    <string name="encerrar">Encerrar Expediente</string>
+    <string name="voltar">Tela Inicial</string>
 </resources>
